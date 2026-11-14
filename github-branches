@@ -1,0 +1,14 @@
+# Task 9: github-branches - All Branches with Tracking Status
+
+# Command executed:
+git fetch --all
+git branch -a -vv
+
+# Terminal output:
+  bug-fix-revert                d389258 Revert "Fix typo: 'Addtional' -> 'Additional' and add author username"
+  bug-fix-typo                  cd7be54 Fix typo: 'Addtional' -> 'Additional' and add author username
+* main                          cd7be54 [origin/main] Fix typo: 'Addtional' -> 'Additional' and add author username
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert d389258 Revert "Fix typo: 'Addtional' -> 'Additional' and add author username"
+  remotes/origin/bug-fix-typo   cd7be54 Fix typo: 'Addtional' -> 'Additional' and add author username
+  remotes/origin/main           cd7be54 Fix typo: 'Addtional' -> 'Additional' and add author username

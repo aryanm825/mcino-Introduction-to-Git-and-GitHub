@@ -1,0 +1,29 @@
+# Task 6: forked-repo - GitHub API Evidence of Fork Relationship
+# Command executed:
+curl -s https://api.github.com/repos/aryanm825/mcino-Introduction-to-Git-and-GitHub
+
+# Relevant fields from actual API response:
+{
+  "id": 1457691487,
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "aryanm825/mcino-Introduction-to-Git-and-GitHub",
+  "private": false,
+  "owner": {
+    "login": "aryanm825"
+  },
+  "html_url": "https://github.com/aryanm825/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "visibility": "public",
+  "default_branch": "main",
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "owner": {
+      "login": "ibm-developer-skills-network"
+    }
+  },
+  "source": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
