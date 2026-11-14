@@ -1,0 +1,18 @@
+# Task 8: bug-fix-revert - Pull Request Evidence
+# 
+# INSTRUCTIONS: Create the PR by visiting this URL while logged in as aryanm825:
+# https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/compare/main...aryanm825:mcino-Introduction-to-Git-and-GitHub:bug-fix-revert
+#
+# After PR is created, the actual API response will be recorded here.
+#
+# Command to verify PR after creation:
+# curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all&head=aryanm825:bug-fix-revert
+#
+# Expected fields in API response:
+# {
+#   "html_url": "<PR URL>",
+#   "state": "open",
+#   "user": { "login": "aryanm825" },
+#   "head": { "ref": "bug-fix-revert", "label": "aryanm825:bug-fix-revert" },
+#   "base": { "ref": "main", "label": "ibm-developer-skills-network:main" }
+# }
